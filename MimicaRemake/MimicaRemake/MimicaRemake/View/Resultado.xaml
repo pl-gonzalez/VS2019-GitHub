@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MimicaRemake.View.Resultado">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Grupo A" FontSize="20"/>
+            <Label Text="30 pts" FontSize="64" HorizontalOptions="Center"/>
+            <Label Text="Grupo B" FontSize="20"/>
+            <Label Text="120 pts" FontSize="64" HorizontalOptions="Center"/>
+            <Button Text="Revanche!"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

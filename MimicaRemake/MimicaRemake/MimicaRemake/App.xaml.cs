@@ -10,7 +10,7 @@ namespace MimicaRemake
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new MimicaRemake.View.Inicio();
         }
 
         protected override void OnStart()
